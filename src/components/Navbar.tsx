@@ -80,8 +80,8 @@ const Navbar: React.FC = () => {
         <div
           onClick={() => {
             navigate("/"); // actually go to /
-            setActive("overview");
-            scrollToSection("overview");
+            setActive("");
+            scrollToSection("");
           }}
           style={{
             display: "flex",
