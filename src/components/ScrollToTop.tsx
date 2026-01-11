@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Box } from "@mui/material";
 import { FaArrowUp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom"; // ✅ add this
 
 const ScrollToTop = () => {
   const [visible, setVisible] = useState(false);
+  const navigate = useNavigate(); // ✅ add this
 
   useEffect(() => {
     const toggleVisibility = () => {
@@ -19,6 +21,7 @@ const ScrollToTop = () => {
   }, []);
 
   const scrollToTop = () => {
+    navigate("/"); // ✅ update URL to "/"
     window.scrollTo({
       top: 0,
       behavior: "smooth",
