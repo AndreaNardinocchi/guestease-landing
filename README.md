@@ -10,4 +10,4 @@ npm run dev
 
 # Deployment
 
-https://guesteaseland.vercel.app/#contact
+https://guestease-landing.vercel.app/

@@ -69,7 +69,7 @@ const Contact = () => (
         component="a"
         href="https://www.linkedin.com/in/andrea-nardinocchi-53084056/"
         target="_blank"
-        sx={{ color: "#0A66C2" }}
+        sx={{ color: "#0A66C2", mb: 6 }}
       >
         <FaLinkedin size={iconSize} />
       </Box>
