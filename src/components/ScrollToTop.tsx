@@ -21,7 +21,7 @@ const ScrollToTop = () => {
   }, []);
 
   const scrollToTop = () => {
-    navigate("/"); // ✅ update URL to "/"
+    navigate("/"); //  update URL to "/"
     window.scrollTo({
       top: 0,
       behavior: "smooth",

@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
           backgroundColor: "#e26d5c",
           // color: "white",
           color: "#EFF5E0",
-          "&:hover": { backgroundColor: "#c95b4d" },
+          "&:hover": { backgroundColor: "#c95b4d", color: "#472d30" },
         }}
         href="https://guest-ease-efpg.vercel.app/"
         target="_blank"
