@@ -101,7 +101,7 @@ const Portfolio = () => (
 
         <Box
           component="a"
-          href="https://www.figma.com/design/2FIwh7ESiHDX6UvxikZiUH/Final-Project?node-id=0-1&p=f&t=5hC8WDlI4Yd20SgJ-0"
+          href="https://www.figma.com/design/2FIwh7ESiHDX6UvxikZiUH/Final-Project?node-id=0-1&t=WUu5VTgi7CjQ4QWq-1"
           target="_blank"
           sx={{ color: "#F24E1E" }}
         >
