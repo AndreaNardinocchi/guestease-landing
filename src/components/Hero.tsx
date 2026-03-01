@@ -48,6 +48,9 @@ const Hero: React.FC = () => {
           color: "#EFF5E0",
           "&:hover": { backgroundColor: "#c95b4d" },
         }}
+        href="https://guest-ease-efpg.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Try GuestEase
       </Button>
