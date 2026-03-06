@@ -107,6 +107,8 @@ const Hero: React.FC = () => {
             <br />✓ Room browsing and date-based availability
             <br />✓ Full booking CRUD functionality for guests
             <br />✓ Admin dashboard for room, users and booking management
+            <br />✓ Secure payments with Stripe (SetupIntent, PaymentIntent, and
+            refunds)
           </Typography>
         </Box>
 
