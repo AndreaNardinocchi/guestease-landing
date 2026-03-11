@@ -80,10 +80,12 @@ const Hero: React.FC = () => {
         and OTAs with an easy-to-use platform where guests book online and
         admins manage rooms, pricing, and reservations via a secure dashboard.
         <br />
-        GuestEase aims to streamline and digitalize the booking process for
-        small hospitality businesses. With tailored features for Guests and
-        Administrators, it ensures smooth interactions, efficient management,
-        and a reliable, automated, and user-friendly booking experience.
+        GuestEase is a prototype app for an 8-room B&B which demonstrates how a
+        modern online booking system can streamline and digitalize the booking
+        process for small hospitality businesses. With tailored features for
+        Guests and Administrators, it ensures smooth interactions, efficient
+        management, and a reliable, automated, and user-friendly booking
+        experience.
       </Typography>
 
       <Box
