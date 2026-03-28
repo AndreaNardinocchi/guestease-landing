@@ -131,7 +131,7 @@ const Portfolio = () => (
 
         <Box
           component="a"
-          href="https://your-powerpoint-link"
+          href="https://docs.google.com/presentation/d/1UsddfG92SykzCekhW-x7HJtw-DQKT6Id/edit?usp=sharing&ouid=101966536758614827033&rtpof=true&sd=true"
           target="_blank"
           sx={{ color: "#D24726" }}
         >
