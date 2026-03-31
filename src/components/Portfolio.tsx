@@ -95,7 +95,21 @@ const Portfolio = () => (
             variant="h6"
             sx={{ color: "#472d30", fontWeight: "bold" }}
           >
-            Google Docs
+            Report V1
+          </Typography>
+        </Box>
+        <Box
+          component="a"
+          href="https://docs.google.com/document/d/16rQ50CXsQqvQYGD-5drtFwac4O1qiUrNNvgw2wm0WL0/edit?usp=sharing"
+          target="_blank"
+          sx={{ color: "#4285F4" }}
+        >
+          <FaGoogleDrive size={iconSize} />
+          <Typography
+            variant="h6"
+            sx={{ color: "#472d30", fontWeight: "bold" }}
+          >
+            Report V2
           </Typography>
         </Box>
 
@@ -110,7 +124,7 @@ const Portfolio = () => (
             variant="h6"
             sx={{ color: "#472d30", fontWeight: "bold" }}
           >
-            Figma
+            Wireframes
           </Typography>
         </Box>
 
@@ -125,7 +139,7 @@ const Portfolio = () => (
             variant="h6"
             sx={{ color: "#472d30", fontWeight: "bold" }}
           >
-            YouTube
+            Video Presentation
           </Typography>
         </Box>
 
@@ -140,7 +154,7 @@ const Portfolio = () => (
             variant="h6"
             sx={{ color: "#472d30", fontWeight: "bold" }}
           >
-            PowerPoint
+            Presentation
           </Typography>
         </Box>
       </Box>
