@@ -36,8 +36,35 @@ const Hero: React.FC = () => {
         variant="h6"
         sx={{ maxWidth: 600, mx: "auto", mb: 4, color: "#EFF5E0" }}
       >
-        A full-stack web app for small hospitality businesses
+        <span style={{ textAlign: "center", fontWeight: "bold" }}>
+          GuestEase
+        </span>
+        <br />A full-stack web app for small hospitality businesses
+        <br />
+        <span style={{ textAlign: "center" }}>
+          by{" "}
+          <span style={{ textAlign: "center", fontWeight: "bold" }}>
+            Andrea Nardinocchi
+          </span>
+        </span>
       </Typography>
+
+      <Box
+        component="img"
+        src="https://zpimkgxflfffiooxowet.supabase.co/storage/v1/object/public/assets/AndreaNardinocchi.jpg"
+        alt="Andrea Nardinocchi"
+        sx={{
+          width: "300px",
+          height: "400px",
+          objectFit: "cover",
+          display: "block",
+          mx: "auto",
+          mt: 2,
+          borderRadius: "8px",
+          marginBottom: 4,
+          boxShadow: "0 8px 20px rgba(0, 0, 0, 0.35)",
+        }}
+      />
 
       <Button
         variant="contained"
